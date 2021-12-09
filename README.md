@@ -3,5 +3,4 @@
 
 Project: "Demographic Age (<21 and >=21) and Race (black, white, Hispanic/Latino, Asian) prediction of Twitter users." 
 
-Our task is to to use tweets of these Twitter users (available in the Twitter_User_Handles_labeled_tweets.json file and tweets.json) to predict their age (<21 and >=21) and race (black, white, Hispanic/Latino, Asian) based on the training data available in the labeled_users.csv file.
-*labeled_users_clean.csv is preproccessed labeled_users.csv
+We trained two models to predict twitter user's age (<21 and >=21) and race (black, white, Hispanic/Latinom, Asian), based on labeled_users.csv,  Twitter_User_Handles_labeled_tweets.json and tweets.json.
