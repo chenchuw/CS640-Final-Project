@@ -14,6 +14,8 @@ Approach and Analysis of Result - Race
 
 Data preprocessing and selection:
 
+* The dataset files Twitter_User_Handles_labeled_tweets.json, User_demo_profiles.json, and labeled_users.csv are not included in the repo for copyright reasons. If needed, please contact one of our team member.
+
 First, we merge the data from Twitter_User_Handles_labeled_tweets.json, User_demo_profiles.json and  labeled_users.csv using user_id. Then we did a quick count at the data, and found that we have data of Whites dozens of times more than other races, but we decided to keep all data for now because if we just sample the Whites data to be as much as other races, the overall data samples would be too small and may reduce the meaning for the results. 
 
 At last we did preprocess for both tweets and names. For tweets, we remove hashtags, @usernames, punctuations except ? and links; for names, we remove all data that contain incorrect forms of names, separate first name and last name, and  if there is only one word in name, we treat it as both the last name and the first name.
@@ -51,6 +53,8 @@ Figure 5: sample Asian names
 
 Approach and Analysis of Result - Age
 =====================================
+
+* The dataset files labeled_users.csv, tweets.json, and preprocessed file labeled_users_clean.csv are not included in the repo for copyright reasons. If needed, please contact one of our team member.
 
 Data preprocessing and selection:
 
